@@ -1,0 +1,141 @@
+{
+ "sku": {
+  "name": "A1",
+  "tier": "Standard"
+ },
+ "properties": {
+  "displayName": "ASC Default (subscription: a1221638-aca8-41f8-bf5d-35f86024308a)",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policySetDefinitions/1f3afdf9-d0c9-4c3d-847f-89da613e70a8",
+  "scope": "/subscriptions/a1221638-aca8-41f8-bf5d-35f86024308a",
+  "parameters": {
+   "diagnosticsLogsInServiceFabricMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "systemUpdatesMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "systemConfigurationsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "endpointProtectionMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "diskEncryptionMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "networkSecurityGroupsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "webApplicationFirewallMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "sqlAuditingMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "sqlEncryptionMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "nextGenerationFirewallMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "vulnerabilityAssesmentMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "storageEncryptionMonitoringEffect": {
+    "value": "Audit"
+   },
+   "jitNetworkAccessMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "adaptiveApplicationControlsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityDesignateLessThanOwnersMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityDesignateMoreThanOneOwnerMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityEnableMFAForOwnerPermissionsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityEnableMFAForWritePermissionsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityEnableMFAForReadPermissionsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityRemoveDeprecatedAccountWithOwnerPermissionsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityRemoveDeprecatedAccountMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityRemoveExternalAccountWithOwnerPermissionsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityRemoveExternalAccountWithWritePermissionsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "identityRemoveExternalAccountWithReadPermissionsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "secureTransferToStorageAccountMonitoringEffect": {
+    "value": "Audit"
+   },
+   "aadAuthenticationInSqlServerMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "diagnosticsLogsInRedisCacheMonitoringEffect": {
+    "value": "Audit"
+   },
+   "clusterProtectionLevelInServiceFabricMonitoringEffect": {
+    "value": "Audit"
+   },
+   "aadAuthenticationInServiceFabricMonitoringEffect": {
+    "value": "Audit"
+   },
+   "diagnosticsLogsInServiceBusMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "diagnosticsLogsInDataLakeAnalyticsMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "diagnosticsLogsInDataLakeStoreMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "diagnosticsLogsInBatchAccountMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "diagnosticsLogsInEventHubMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "metricAlertsInBatchAccountMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   },
+   "namespaceAuthorizationRulesInServiceBusMonitoringEffect": {
+    "value": "Audit"
+   },
+   "disableUnrestrictedNetworkToStorageAccountMonitoringEffect": {
+    "value": "Audit"
+   },
+   "classicComputeVMsMonitoringEffect": {
+    "value": "Audit"
+   },
+   "classicStorageAccountsMonitoringEffect": {
+    "value": "Audit"
+   },
+   "sqlDbVulnerabilityAssesmentMonitoringEffect": {
+    "value": "AuditIfNotExists"
+   }
+  },
+  "description": "This policy assignment was automatically created by Azure Security Center",
+  "metadata": {
+   "assignedBy": "Security Center"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/a1221638-aca8-41f8-bf5d-35f86024308a/providers/Microsoft.Authorization/policyAssignments/SecurityCenterBuiltIn",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "SecurityCenterBuiltIn"
+}
